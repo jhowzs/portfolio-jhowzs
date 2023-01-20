@@ -1,0 +1,22 @@
+.skills-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.skills {
+  padding-left: 25px;
+}
+
+.skills h2 {
+  font: 600 1.5rem "Montserrat", Arial, sans-serif;
+  color: #bdebea;
+  margin-bottom: 30px;
+}
+
+.skills-items {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+}
+.skills-items span {
+  margin-bottom: 60px;
+}
