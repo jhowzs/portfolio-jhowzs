@@ -1,0 +1,28 @@
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-menu-item {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  margin-bottom: 60px;
+}
+
+.footer-menu-item a {
+  font: 400 1rem "Montserrat", Arial, sans-serif;
+  color: #bdebea;
+}
+
+.footer-menu-item a:hover {
+  color: #00f5a0;
+}
+
+.footer span {
+  display: flex;
+  justify-content: center;
+  font: 400 1rem "Montserrat", Arial, sans-serif;
+  color: #bdebea;
+  margin-bottom: 90px;
+}
