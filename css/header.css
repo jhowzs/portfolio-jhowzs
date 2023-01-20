@@ -1,7 +1,6 @@
 .header-container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0;
 }
 
 .header {
@@ -17,11 +16,9 @@
   align-items: center;
 }
 .header-menu-item a {
+  font: 500 1rem "Montserrat", Arial, sans-serif;
   color: #bdebea;
-  font-family: "Montserrat", Arial, sans-serif;
-  font-size: 1rem;
-  font-weight: 500;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
 #button-header {
