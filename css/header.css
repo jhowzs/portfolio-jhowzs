@@ -8,12 +8,14 @@
   justify-content: space-between;
   padding: 40px 25px;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .header-menu-item {
   display: flex;
   gap: 80px;
   align-items: center;
+  flex-wrap: wrap;
 }
 .header-menu-item a {
   font: 500 1rem "Montserrat", Arial, sans-serif;
@@ -26,4 +28,18 @@
   background: linear-gradient(90deg, #00f5a0 0%, #00d9f5 100%);
   display: inline-block;
   color: #252728;
+}
+
+@media (max-width: 900px) {
+  #button-header {
+    background: none;
+    color: #bdebea;
+    border: 1px solid #00d9f5;
+  }
+}
+
+@media (max-width: 600px) {
+  header {
+    margin-bottom: 50px;
+  }
 }
