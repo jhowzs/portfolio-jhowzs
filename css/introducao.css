@@ -7,6 +7,7 @@
   display: grid;
   grid-template-columns: 1fr auto;
   align-items: center;
+  padding: 0 25px;
 }
 
 .main-info span {
@@ -37,7 +38,6 @@
   color: #bdebea;
   margin-bottom: 30px;
   user-select: none;
-  position: relative;
 }
 
 .main-info a {
@@ -49,13 +49,27 @@
   font: 500 1rem/1.5 "Montserrat", Arial, sans-serif;
 }
 
-.main-info p::before {
-  content: "";
-  display: inline-block;
-  height: 32px;
-  width: 32px;
-  background-image: url(../img/arrow-scroll.svg);
-  top: 400px;
-  left: 600px;
-  position: absolute;
+@media (max-width: 900px) {
+  .main-content img {
+    display: none;
+  }
+  .main-content {
+    grid-template-columns: auto;
+    place-content: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .main-info span {
+    font: 400 1rem "Tinos", Helvetica, Arial, sans-serif;
+  }
+  .main-info h1 {
+    font: 600 4rem/1 "Montserrat", Arial, sans-serif;
+  }
+}
+
+@media (max-width: 600px) {
+  .main-info span {
+    font: 400 1rem "Tinos", Helvetica, Arial, sans-serif;
+  }
 }
