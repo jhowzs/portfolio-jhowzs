@@ -5,7 +5,11 @@
 
 .projects {
   padding-top: 120px;
+}
+
+.projects-item {
   padding-left: 25px;
+  padding-right: 25px;
 }
 
 .projects h2 {

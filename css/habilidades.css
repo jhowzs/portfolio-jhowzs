@@ -3,8 +3,9 @@
   margin: 0 auto;
 }
 
-.skills {
+.skills-content {
   padding-left: 25px;
+  padding-right: 25px;
 }
 
 .skills h2 {
@@ -16,6 +17,7 @@
 .skills-items {
   display: grid;
   grid-template-columns: repeat(4, auto);
+  margin-bottom: 260px;
 }
 .skills-items span {
   margin-bottom: 60px;
