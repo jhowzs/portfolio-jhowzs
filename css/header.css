@@ -20,11 +20,13 @@
   color: #bdebea;
   font-family: "Montserrat", Arial, sans-serif;
   font-size: 1rem;
+  font-weight: 500;
   border-radius: 3px;
 }
 
-.button-header {
+#button-header {
   padding: 12px 20px 13px 20px;
-  background: white;
+  background: linear-gradient(90deg, #00f5a0 0%, #00d9f5 100%);
   display: inline-block;
+  color: #252728;
 }
