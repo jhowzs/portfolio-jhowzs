@@ -12,3 +12,6 @@
 @import "./sobre.css";
 @import "./projetos.css";
 @import "./habilidades.css";
+
+/* Contact Page */
+@import "./contato/contato.css";
