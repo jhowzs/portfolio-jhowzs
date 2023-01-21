@@ -7,16 +7,26 @@
   padding-top: 280px;
 }
 
-.footer-menu-item {
+.footer-menu {
   display: flex;
   justify-content: center;
+  align-items: flex-end;
   gap: 70px;
   margin-bottom: 60px;
+}
+
+.footer-menu-icon {
+  display: flex;
+  gap: 30px;
 }
 
 .footer-menu-item a {
   font: 400 1rem "Montserrat", Arial, sans-serif;
   color: #bdebea;
+}
+
+.footer-menu-item li:first-child {
+  margin-bottom: 10px;
 }
 
 .footer-menu-item a:hover {
@@ -26,7 +36,7 @@
 .footer span {
   display: flex;
   justify-content: center;
-  font: 400 1rem "Montserrat", Arial, sans-serif;
+  font: 400 0.75rem "Montserrat", Arial, sans-serif;
   color: #bdebea;
-  margin-bottom: 90px;
+  margin-bottom: 10px;
 }
