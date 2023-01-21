@@ -1,24 +1,24 @@
-.projects-container {
+.project-container {
   max-width: 1200px;
   margin: 0 auto;
 }
 
-.projects {
+.project {
   padding-top: 250px;
 }
 
-.projects-item {
+.project-item {
   padding-left: 25px;
   padding-right: 25px;
 }
 
-.projects h2 {
+.project h2 {
   font: 600 1.5rem "Montserrat", Arial, sans-serif;
   color: #bdebea;
   margin-bottom: 30px;
 }
 
-.projects-cards {
+.project-cards {
   gap: 20px;
 }
 
@@ -62,7 +62,7 @@
   color: #bdebea;
 }
 
-.projects-cards {
+.project-cards {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -76,8 +76,8 @@
 }
 
 @media (max-width: 800px) {
-  .projects-cards {
-    grid-template-columns: 1fr;
+  .project-cards {
+    grid-template-columns: auto;
     place-content: center;
   }
 }
