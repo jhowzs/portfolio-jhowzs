@@ -4,9 +4,12 @@
 }
 
 .header {
+  padding: 40px 25px;
+}
+
+.header-menu {
   display: flex;
   justify-content: space-between;
-  padding: 40px 25px;
   flex-wrap: wrap;
   align-items: center;
 }
@@ -30,7 +33,7 @@
 @media (max-width: 900px) {
   #button-header {
     background: none;
-    color: #bdebea;
+    color: #bdebea !important;
     border: 1px solid #00d9f5;
   }
 }
