@@ -4,7 +4,7 @@
 }
 
 .projects {
-  padding-top: 120px;
+  padding-top: 250px;
 }
 
 .projects-item {
@@ -26,6 +26,12 @@
   background: #222525;
   max-width: 600px;
   border-radius: 6px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+}
+
+.project-infos:hover {
+  transform: scale(1.05, 1.05);
 }
 
 .project-infos img {
@@ -62,7 +68,6 @@
 .projects-cards {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-bottom: 120px;
 }
 
 .projects-button {

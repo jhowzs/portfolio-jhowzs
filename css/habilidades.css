@@ -3,6 +3,10 @@
   margin: 0 auto;
 }
 
+.skills {
+  padding-top: 280px;
+}
+
 .skills-content {
   padding-left: 25px;
   padding-right: 25px;
@@ -17,7 +21,6 @@
 .skills-items {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  margin-bottom: 260px;
 }
 .skills-items span {
   margin-bottom: 60px;
