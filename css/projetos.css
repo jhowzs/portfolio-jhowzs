@@ -77,7 +77,7 @@
 
 @media (max-width: 800px) {
   .project-cards {
-    grid-template-columns: auto;
+    grid-template-columns: 1fr;
     place-content: center;
   }
 }
