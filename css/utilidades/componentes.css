@@ -1,0 +1,12 @@
+.button {
+  background: linear-gradient(90deg, #00f5a0 0%, #00d9f5 100%);
+  padding: 12px 20px 12px 20px;
+  display: inline-block;
+  border-radius: 6px;
+  color: #252728 !important;
+  font: 500 1rem/1.5 "Montserrat", Arial, sans-serif;
+}
+
+.button:hover {
+  background: linear-gradient(90deg, #00d9f5 0%, #00f5a0 100%);
+}

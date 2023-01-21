@@ -67,10 +67,8 @@
 
 .projects-button {
   padding: 15px 20px;
-  background: linear-gradient(90deg, #00f5a0 0%, #00d9f5 100%);
   border-radius: 6px;
-  display: inline-block;
-  color: #252728;
+  text-transform: uppercase;
   place-self: center;
   grid-column: 1 / -1;
 }

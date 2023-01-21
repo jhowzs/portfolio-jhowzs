@@ -1,8 +1,14 @@
+/* global settings */
 @import "./global/global.css";
 
 @import "./header.css";
+@import "./footer.css";
+
+/* Utilities */
+@import "./utilidades/componentes.css";
+
+/* Home Page */
 @import "./introducao.css";
 @import "./sobre.css";
 @import "./projetos.css";
 @import "./habilidades.css";
-@import "./footer.css";

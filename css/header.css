@@ -23,11 +23,8 @@
   border-radius: 5px;
 }
 
-#button-header {
-  padding: 12px 20px 13px 20px;
-  background: linear-gradient(90deg, #00f5a0 0%, #00d9f5 100%);
-  display: inline-block;
-  color: #252728;
+.header-menu-item a:hover {
+  color: #00f5a0;
 }
 
 @media (max-width: 900px) {

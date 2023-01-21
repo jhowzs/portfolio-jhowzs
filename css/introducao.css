@@ -41,15 +41,6 @@
   user-select: none;
 }
 
-.main-info a {
-  background: linear-gradient(90deg, #00f5a0 0%, #00d9f5 100%);
-  padding: 12px 20px 12px 20px;
-  display: inline-block;
-  border-radius: 5px;
-  color: #252728;
-  font: 500 1rem/1.5 "Montserrat", Arial, sans-serif;
-}
-
 @media (max-width: 900px) {
   .main-content img {
     display: none;
