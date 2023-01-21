@@ -16,9 +16,23 @@
 
 .skills-items {
   display: grid;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(4, 1fr);
   margin-bottom: 260px;
 }
 .skills-items span {
   margin-bottom: 60px;
+}
+
+@media (max-width: 800px) {
+  .skills-items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .skills-items {
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 20px;
+  }
 }

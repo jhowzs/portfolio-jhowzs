@@ -62,7 +62,7 @@
 .projects-cards {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-bottom: 60px;
+  margin-bottom: 120px;
 }
 
 .projects-button {
@@ -73,4 +73,11 @@
   color: #252728;
   place-self: center;
   grid-column: 1 / -1;
+}
+
+@media (max-width: 800px) {
+  .projects-cards {
+    grid-template-columns: 1fr;
+    place-content: center;
+  }
 }

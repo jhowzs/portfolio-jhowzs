@@ -4,6 +4,7 @@
 }
 
 .aboutMe {
+  background: url(../img/arrow-scroll.svg) no-repeat center;
   padding-top: 260px;
 }
 
@@ -35,4 +36,13 @@
   position: absolute;
   top: 45px;
   left: -70px;
+}
+
+@media (max-width: 800px) {
+  .aboutMe {
+    background: url();
+  }
+  .about-item p {
+    max-width: 70ch;
+  }
 }
