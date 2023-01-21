@@ -3,8 +3,10 @@
   padding: 12px 20px 12px 20px;
   display: inline-block;
   border-radius: 6px;
+  border: none;
   color: #252728 !important;
   font: 500 1rem/1.5 "Montserrat", Arial, sans-serif;
+  cursor: pointer;
 }
 
 .button:hover {
