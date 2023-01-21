@@ -5,10 +5,13 @@
 
 .footer {
   padding-top: 280px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .footer-menu {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr;
   justify-content: center;
   align-items: flex-end;
   gap: 70px;
@@ -39,4 +42,13 @@
   font: 400 0.75rem "Montserrat", Arial, sans-serif;
   color: #bdebea;
   margin-bottom: 10px;
+}
+
+@media (max-width: 801px) {
+  .footer-menu {
+    grid-template-columns: auto;
+  }
+  .footer-menu-icon {
+    grid-row: 1;
+  }
 }
