@@ -24,9 +24,10 @@
   font: 500 1rem "Montserrat", Arial, sans-serif;
   color: #bdebea;
   border-radius: 5px;
+  position: relative;
 }
 
-.header-menu-item a:hover {
+.header-menu a:hover {
   color: #00f5a0;
 }
 
