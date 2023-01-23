@@ -10,8 +10,7 @@
 }
 
 .footer-menu {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
   justify-content: center;
   align-items: flex-end;
   gap: 70px;
@@ -44,11 +43,14 @@
   margin-bottom: 10px;
 }
 
-@media (max-width: 801px) {
+@media (max-width: 600px) {
   .footer-menu {
-    grid-template-columns: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
   }
   .footer-menu-icon {
     grid-row: 1;
+    justify-self: center;
   }
 }
