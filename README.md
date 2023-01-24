@@ -12,3 +12,15 @@
     <img alt="Ask Me Bro Logo" src="https://user-images.githubusercontent.com/90876213/214409821-58828dca-b52f-4ec5-8e99-9a599c137d52.png" style="max-width: 100%;">
   </a>
 <br>
+<h1>🎯 SOBRE</h1>
+<p>Esse é meu portfólio aonde eu apresento os meus projetos e falo sobre as minhas habilidades.</p>
+<h1>📱 RESPONSIVIDADE</h1>
+<p>O projeto como um todo, foi desenvolvido de forma <strong>Responsiva</strong> se adaptando ao tamanho da tela do usuário, sendo projetado da melhor maneira possível para melhor conforto e vizualização do usuário.</p></p>
+<h1>🚀 TECNOLOGIAS</h1>
+  <ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HTML</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CSS</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JAVASCRIPT</font></font></li>
+</ul>
+<p>Além dessas tenologias foi ultilizado npm para automação e otimização do site.</p><br>
+  <p>Estarei novamente, disponibilizando o link do site. <a href="https://portfolio-jhowzs.vercel.app/">CLIQUE AQUI.</a> </p>
